@@ -15,5 +15,26 @@ public class Main {
             // for you, but you can always add more by pressing Ctrl+F8.
             System.out.println("i = " + i);
         }
+        String[]ar = {"sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday" };
+        int x = 8;
+        switch(x){
+            case 1:
+                System.out.println(ar[0]);break;
+            case 2:
+                System.out.println(ar[1]);break;
+            case 3:
+                System.out.println(ar[2]);break;
+            case 4:
+                System.out.println(ar[3]);break;
+            case 5:
+                System.out.println(ar[4]);break;
+            case 6:
+                System.out.println(ar[5]);break;
+            case 7:
+                System.out.println(ar[6]);break;
+            default:
+                System.out.println("Wrong number");
+
+        }
     }
 }
